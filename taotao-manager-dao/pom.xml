@@ -12,7 +12,6 @@
 
     <artifactId>taotao-manager-dao</artifactId>
 
-
     <dependencies>
         <dependency>
             <groupId>com.taotao</groupId>

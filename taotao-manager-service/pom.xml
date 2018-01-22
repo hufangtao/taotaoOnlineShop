@@ -12,6 +12,7 @@
 
     <artifactId>taotao-manager-service</artifactId>
 
+    <packaging>war</packaging>
 
     <dependencies>
         <dependency>
