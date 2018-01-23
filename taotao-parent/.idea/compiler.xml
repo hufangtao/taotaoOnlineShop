@@ -15,6 +15,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="pagehelper" target="1.7" />
       <module name="taotao-common" target="1.7" />
       <module name="taotao-manager" target="1.7" />
       <module name="taotao-manager-dao" target="1.7" />
