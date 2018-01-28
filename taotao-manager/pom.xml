@@ -19,7 +19,6 @@
         <module>../taotao-manager-service</module>
     </modules>
 
-
     <dependencies>
         <dependency>
             <groupId>com.taotao</groupId>
