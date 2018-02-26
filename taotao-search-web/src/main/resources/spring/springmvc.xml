@@ -20,15 +20,13 @@
 
     <!--加载属性文件-->
     <context:property-placeholder location="classpath:resource/resource.properties"/>
-
-
     <!--配置包扫描器 扫描@Controller-->
     <context:component-scan base-package="com.taotao.search.controller"/>
 
     <!--引用dubbo服务-->
     <dubbo:application name="taotao-search-web"/>
     <dubbo:registry protocol="zookeeper" address="192.168.10.10:2181"/>
-    <!--<dubbo:reference  interface="com.taotao.service.ItemService" id="itemService" />-->
+    <dubbo:reference  interface="com.taotao.search.service.SearchService" id="searchService" />
     <!--<dubbo:reference interface="com.taotao.content.service.ContentService" id="contentService" />-->
 
 </beans>

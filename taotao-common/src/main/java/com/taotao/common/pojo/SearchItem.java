@@ -4,7 +4,7 @@ import java.io.Serializable;
 
 public class SearchItem implements Serializable {
 
-    private Long id;
+    private String id;
     private String title;
     private String sell_point;
     private long price;
@@ -12,11 +12,11 @@ public class SearchItem implements Serializable {
     private String category_name;
     private String item_desc;
 
-    public Long getId() {
+    public String getId() {
         return id;
     }
 
-    public void setId(Long id) {
+    public void setId(String id) {
         this.id = id;
     }
 
